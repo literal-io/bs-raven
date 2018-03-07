@@ -1,7 +1,24 @@
 {
-  "name": "bs-chalk",
-  "bsc-flags": ["-bs-super-errors"],
-  "bs-dev-dependencies": ["bs-jest"],
+  "name": "bs-raven",
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "bs-dev-dependencies": [
+    "bs-jest"
+  ],
   "refmt": 3,
-  "sources": [{ "dir": "src" }, { "dir": "__tests__", "type": "dev" }]
+  "namespace": true,
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "sources": [
+    {
+      "dir": "src"
+    },
+    {
+      "dir": "__tests__",
+      "type": "dev"
+    }
+  ]
 }
