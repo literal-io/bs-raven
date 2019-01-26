@@ -4,15 +4,13 @@
   "description": "BuckleScript bindings to raven-js",
   "license": "MIT",
   "dependencies": {
-    "raven-js": "~3.21.0"
+    "raven-js": "~3.27.0"
   },
   "devDependencies": {
-    "bs-jest": "^0.2.0",
-    "bs-platform": "2"
+    "bs-platform": "4.0.18"
   },
   "scripts": {
-    "start": "bsb -clean-world -make-world -w",
-    "test": "jest --watch"
+    "start": "bsb -clean-world -make-world -w"
   },
   "repository": {
     "type": "git",
